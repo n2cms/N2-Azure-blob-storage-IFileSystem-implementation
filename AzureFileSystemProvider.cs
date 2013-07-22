@@ -11,8 +11,6 @@
     using Microsoft.WindowsAzure.Storage.Auth;
     using Microsoft.WindowsAzure.Storage.Blob;
 
-    using N2.Edit.FileSystem;
-    
     public class AzureFileSystemProvider
     {
         internal const string _DIRECTORY_PLACE_HOLDER = "dir";
