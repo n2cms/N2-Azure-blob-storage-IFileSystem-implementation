@@ -1,0 +1,8 @@
+AssemblyInfo.cs
+obj
+bin
+debug
+*.csproj
+*.csproj.user
+*.suo
+*.cache
