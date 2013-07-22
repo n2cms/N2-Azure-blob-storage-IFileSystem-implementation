@@ -11,6 +11,7 @@
 
     using N2.Engine;
 
+	[Service(typeof(IFileSystem))]
     public class AzureFileSystem : IFileSystem
     {
         public event EventHandler<FileEventArgs> DirectoryCreated;
